@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Navbar } from "../components/oragnisms";
+import { Hero, Navbar } from "../components/oragnisms";
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
+      <Hero />
     </div>
   );
 };
